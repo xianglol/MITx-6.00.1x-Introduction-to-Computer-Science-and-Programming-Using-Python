@@ -24,11 +24,15 @@ def is_list_permutation(L1, L2):
             tuple of 3 items in this order: 
             the element occurring most, how many times it occurs, and its type
     '''
-    # Your code here
+
 For example,
 
 if L1 = ['a', 'a', 'b'] and L2 = ['a', 'b'] then is_list_permutation returns False
-if L1 = [1, 'b', 1, 'c', 'c', 1] and L2 = ['c', 1, 'b', 1, 1, 'c'] then is_list_permutation returns (1, 3, <class 'int'>) because the integer 1 occurs the most, 3 times, and the type of 1 is an integer (note that the third element in the tuple is not a string).
+
+if L1 = [1, 'b', 1, 'c', 'c', 1] and L2 = ['c', 1, 'b', 1, 1, 'c'] then is_list_permutation returns (1, 3, <class 'int'>) 
+because the integer 1 occurs the most, 3 times, and the type of 1 is an integer 
+(note that the third element in the tuple is not a string).
+
 Paste your entire function, including the definition, in the box below. Do not leave any debugging print statements.
 """
 
