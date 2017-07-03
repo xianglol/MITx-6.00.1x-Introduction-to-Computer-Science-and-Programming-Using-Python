@@ -10,3 +10,9 @@ def general_poly (L):
     Returns a function, which when applied to a value x, returns the value 
     n0 * x^k + n1 * x^(k-1) + ... nk * x^0 """
     #YOUR CODE HERE
+    def to_apply (x):
+        i = 0
+        for n in L:
+            i = x*i + n
+        return i
+    return to_apply
