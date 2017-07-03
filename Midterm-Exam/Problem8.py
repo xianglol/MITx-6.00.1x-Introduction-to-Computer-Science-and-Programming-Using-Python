@@ -2,7 +2,8 @@
 #20.0/20.0 points (graded)
 
 """
-Write a function called general_poly, that meets the specifications below. For example, general_poly([1, 2, 3, 4])(10) should evaluate to 1234 because 1∗103+2∗102+3∗101+4∗100.
+Write a function called general_poly, that meets the specifications below. For example, 
+general_poly([1, 2, 3, 4])(10) should evaluate to 1234 because 1∗10^3+2∗10^2+3∗10^1+4∗10^0.
 """
 
 def general_poly (L):
