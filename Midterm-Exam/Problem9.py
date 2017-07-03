@@ -54,9 +54,6 @@ def is_list_permutation(L1, L2):
     if len(L1) == 0 and len(L2) == 0:
         return None, None, None
         
-    elif len(L1) !=0 and len(L2) == 0:
-        return False
-        
     elif len(L1) == len(L2) and r == True:
         for l in L1:
             if l in L2 and L1.count(l) == L2.count(l):
